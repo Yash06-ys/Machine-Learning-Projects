@@ -1,5 +1,3 @@
-# Machine-Learning-Projects
-Welcome My friend. This is my 2nd Machine Learning Project.
 This project is based on the Customer Analyis done by the company to check wheather their customers are using the Mobile app more or Website more.
 This also includes the yearly investment of the company on both platform.
 We can clearly see this a linear regression problem with 2 Matrix of Features and 1 Dependent Vector.

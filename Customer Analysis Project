@@ -1,0 +1,16 @@
+# Machine-Learning-Projects
+Welcome My friend. This is my 2nd Machine Learning Project.
+This project is based on the Customer Analyis done by the company to check wheather their customers are using the Mobile app more or Website more.
+This also includes the yearly investment of the company on both platform.
+We can clearly see this a linear regression problem with 2 Matrix of Features and 1 Dependent Vector.
+For this project i have used Numpy,Matplotlib,pandas and seaborn as libraries for numerical calculation and visualization.
+Then i checked my dataset. As this a machine generated dataset, it doesn't contain any null values.
+Then i caried all the exploratory analysis using seaborn.
+Then i splitted my dataset on training set and test set.
+Trained my model on the training set.
+Predicted new values using the test set.
+Then visualized the test set and the predicted Values.
+Then Evaluated my model in the test set and got the r2_score.
+This project is just the beginning towards Machine Learning.
+Thank you for reading and checking my code. 
+Feel free to give any suggestion in my linkedin profile.

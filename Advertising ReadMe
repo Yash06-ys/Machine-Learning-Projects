@@ -1,0 +1,32 @@
+Welcome to My Machine Learning Project. This project is based on Ad Data. The company is really interested whether their adds are getting clicks or not. So let’s jump to the code and see what has been done.
+1.	For starting any machine learning project we need some libraries for mathematical calculation and to visualize our data to get much information from the dataset.
+IMPORTING Libraries:
+1.	In this section I have made use of Numpy for my mathematical calculation and used Pandas to read my csv file i.e (advertising.csv) and finally made use of matplotlib and seaborn to visualize my data output.
+Data Cleaning:
+1.	This is the most important stage for any machine learning project.
+2.	In this section I have made use of some python functions to see my dataset, to find the null values, to check the description (what statistical value our dataset holds), information about my dataset.
+3.	I feel comfortable in checking the null values by making use of the seaborn library(heatmap) which tells which column in my dataset has null values.
+4.	Being Fortunate enough there we no null values in the dataset.
+5.	Happy for me.
+Exploratory Data Analysis:
+1.	This section mainly depends on you.
+2.	This section is mainly focused on visualising the column and to get relationship and corelation between the column on our dataset.
+3.	Here I have made use of Jointplot ,histplot, kde, pairplot just to get some relation between different columns.
+Taking Matrix of Feature and Dependent vector from our Dataset:
+1.	For the Matrix of Feature(x) I have taken all the values from the rows and all the columns leaving some unwanted columns.
+2.	The reason of choosing such columns because it will directly effect model. So we don’t want some unwanted data to go in our model.
+3.	For the Dependent Vector(y) I have taken Click on Ad because this was needed by the company and this is dependent on the values taken in (x).
+Spliting The Data into Training set and Train set:
+1.	Here we have make use of Scikit Learn to import train_test_split.
+2.	So we have divided into 4 parts (x_train,x_test,y_train,y_test).
+3.	We have taken our test size as 30% or 0.3 (which will take 30% of the data value for the test purpose).
+
+Training our M.L model:
+1.	For this we will make use of Scikit Learn to import logistic Regression Model.
+2.	Reason why we are using Logistic Regression because at the end we want to classify our model whether we are getting clicks or not.
+3.	Then we have predicted our test result and will check with our training results.
+Evaluating Our M.L Model:
+1.	For the evaluation purpose we have made confusion matrix and made use of accuracy score to check our model results and prediction.
+2.	For the final result I have got a predicted result of 91%.
+
+THANK YOU FOR READING THIS. For any suggestion you can text me on LinkedIn.

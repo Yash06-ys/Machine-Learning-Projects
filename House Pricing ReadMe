@@ -1,0 +1,20 @@
+This project is based on Linear Regression Model where we have to provide price with the help of this algorithm. The steps taken by me to complete this project are stated below.
+
+1.	Importing libraries which includes Numpy, Pandas, Matplotlib, Seaborn.
+2.	These libraries help me doing Mathematical Calculations and help me in Exploratory Data Analysis.
+3.	Then I made use of head function to check the columns of the dataset and get so insights about the dataset.
+4.	Then I made use of isnull function to check for the null or missing values in any of the columns.
+5.	One effective way of checking the null values, by making use of heatmap visualization.
+6.	For this particular purpose I have dropped the address column because that has nothing to do with the model predictions.
+7.	For the EDA part (Exploratory Data Analysis) I have made some relational visualization with the help of seaborn.
+8.	In the pairplot we can see there is a Normal Distribution pattern it the diagonals which shows the correct corelation w.r.t the heatmap too.
+9.	Then I have selected the matrix of features(x) and the dependent Vector(y).
+10.	I have done slicing where I have included all the columns leaving the price column because price is dependent on all the other features present in the dataset.
+11.	Then comes the Split part where I have divided my dataset into Training set and test set.
+12.	I have made my test size 20% which means out of all the rows and columns in my dataset the model will be tested on 20% of its value and 80% is used for training the model.
+13.	Now I have created the model with the help of Scikit Learn but importing Linear Regression.
+14.	I have predicted a value based on the test value and made a comparison with the test value.
+15.	After evaluating my model on the basis of r2 score I have got model accuracy of 0.92 or 92% which is pretty good.
+
+
+Thank you for reading this file. Have a Good Day Ahead.

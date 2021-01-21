@@ -1,0 +1,21 @@
+You've been given a classified data set from a company! They've hidden the feature column names but have given you the data and the target classes.We'll try to use KNN to create a model that directly predicts a class for a new data point based off of the features. Here are the steps taken by me to solve the particular project.
+1.	Importing Libraries. For this project I have made use of Numpy, Pandas, Matplotlib and seaborn for calculation and visualization.
+2.	Then I have checked for the null values in the dataset.
+3.	Then our dataset is divided into x (Matrix of Feature) and y (Dependent variable).
+4.	For the value of x I have considered all the columns excluding the Target class because this column is dependent variable and belongs to y.
+5.	Then I have split my x and y into training set and test set.
+6.	Then I have applied feature scaling in the training set and test set of x.
+7.	Important: Always apply feature scaling after splitting your training set and test set. This prevents from the information leakage to our model so our model can perform well.
+8.	Then I have created the KNN model and trained on the training set.
+9.	Then I have predicted the test result and compared with the original test result.
+10.	Then I have evaluated the model using confusion matrix and the accuracy score.
+11.	For the initial result I got the accuracy of 77% so I applied this iteration to check for the best k value. Which is then used in step 8.
+Iteration Working:
+1.	I have created a empty error rate list.
+2.	Then I have applied the range function where i goes from 1 to 40 in the iteration to get the best k value.
+3.	Then i is passed in neighbor and the model is trained on the training set.
+4.	This is the new variable for the predicted value.
+5.	If the new predicted value is not equal to y test value then the mean is taken an is appended in the error rate.
+6.	The reason why we are creating the error rate so to avoid overfitting and make our KNN curve more generic.
+7.	Then I have visualized the curve of error rate, gave the figure size and got K value or n_neighbor value as 16 used this value while creating the model and got the accuracy of 80.5% which is not so bad. But we can do more tuning and get more accurate results.
+Thank you for reading. Have a good day ahead.
